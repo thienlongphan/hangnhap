@@ -1,0 +1,27 @@
+.header {
+  margin-top: 40px;
+  border-bottom: 2px dashed #dbe1e8;
+}
+.header__logo {
+  display: flex;
+  justify-content: flex-end;
+  img {
+    display: block;
+  }
+}
+
+.header__title {
+  p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 53.3px;
+    color: #12181b;
+    font-weight: 700;
+    margin-top: 14%;
+  }
+
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}

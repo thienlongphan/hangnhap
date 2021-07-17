@@ -1,0 +1,33 @@
+.body__title-1 {
+  text-align: center;
+  margin: 27px 0 27px 0;
+  font-weight: 700;
+  color: #12181b;
+}
+
+.card-title {
+  font-weight: 700;
+  color: #12181b;
+}
+
+.card__img {
+  display: block;
+}
+
+.list-group-item {
+  a {
+    text-decoration: none;
+    &:hover {
+      transition: all .2s;
+      text-decoration: underline;
+    }
+  }
+}
+
+hr {
+  border-bottom: 2px dashed #dbe1e8;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0,30,84,0.12);
+}
